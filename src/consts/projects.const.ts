@@ -9,8 +9,41 @@ import devSearch3 from "src/assets/works/devsearch3.png";
 import geeksZone from "src/assets/works/geeks_zone.jpg";
 import iqReader from "src/assets/works/iq_percentage_reader.png";
 import forexBot from "src/assets/works/bot_forex.jpg";
+import noris1 from "src/assets/works/norisazuaje.png";
+import noris2 from "src/assets/works/norisazuaje2.png";
+import noris3 from "src/assets/works/norisazuaje3.png";
+import mya1 from "src/assets/works/mya1.png";
+import mya2 from "src/assets/works/mya2.png";
+import mya3 from "src/assets/works/mya3.png";
+import mya4 from "src/assets/works/mya4.png";
 
 export const PROJECTS: ProjectInfo[] = [
+  {
+    pagePath: "norisazuaje",
+    name: "NorisAzuaje.com",
+    description: "Este es un portal enfocado en impulsar una marca personal",
+    projectImages: [noris1, noris2, noris3],
+    projectUrl: "https://norisazuaje.com/",
+    technologies: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    pagePath: "myacrm",
+    name: "Montero y Azuaje CRM",
+    description:
+      "Es una plataforma crm creada a medida cuya función es extraer una lista de clientes desde un excel, " +
+      "mostrarlos directamente en el crm y permitir la posibilidad de enviar emails de forma masiva a estos " +
+      "clientes, proveyendo herramientas como la creación y edición de plantillas de correo.",
+    projectImages: [mya1, mya2, mya3, mya4],
+    projectUrl: "",
+    technologies: [
+      "Javascript",
+      "Typescript",
+      "NodeJS",
+      "NestJS",
+      "Postgres",
+      "Google API's",
+    ],
+  },
   {
     pagePath: "instakash",
     name: "Instakash",
